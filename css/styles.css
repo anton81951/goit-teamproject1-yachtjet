@@ -45,17 +45,14 @@ input, textarea {
     font-size: inherit;
 }
 
-.section-style {
+.our-yachts-section-style {
     background-color: #0E1823;
-}
-
-.container {
-    max-width: 375px;
-    margin: 0 auto;
 }
 
 .our-yachts-container {
     padding: 80px 20px;
+    max-width: 375px;
+    margin: 0 auto;
 }
 
 .our-yachts-flex-order {
@@ -74,6 +71,18 @@ input, textarea {
     text-align: center;
 }
 
+.our-yachts-cards {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.our-yachts-card-shell {
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+}
+
 .our-yacht-second-card {
     display: none;
     opacity: 0;
@@ -84,12 +93,6 @@ input, textarea {
     display: none;
     opacity: 0;
     cursor: none;
-}
-
-.our-yachts-card-shell {
-    margin: 0 auto;
-    background-color: #FBFBFB;
-    border-radius: 24px;
 }
 
 .our-yachts-picture-shell img {
@@ -181,12 +184,13 @@ input, textarea {
 
 @media (min-width:768px) {
 
-    .container {
+    .our-yachts-container {
         max-width: 768px;
     }
 
-    .our-yachts-container {
-        padding: 150px 32px;
+    .our-yachts-cards {
+        gap: 32px;
+        max-width: 704px;
     }
 
     .our-yachts-flex-order {
@@ -200,10 +204,8 @@ input, textarea {
         margin-bottom: 25px;
     }
 
-    .our-yachts-cards {
-        display: flex;
-        gap: 32px;
-        align-items: center;
+    .our-yachts-card-shell {
+        width: calc((100% - 32px) / 2);
     }
 
     .our-yacht-second-card {
@@ -222,13 +224,18 @@ input, textarea {
 }
 
 @media (min-width:1280px) {
-    .container {
+
+    .our-yachts-container {
         max-width: 1280px;
     }
 
     .our-yachts-cards {
         gap: 25px;
         max-width: 1181px;
+    }
+
+    .our-yachts-card-shell {
+        width: calc((100% - 50px) / 3);
     }
 
     .our-yacht-third-card {
@@ -238,13 +245,17 @@ input, textarea {
     }
 
     @media (min-width:1440px) {
-        .container {
+        .our-yachts-container {
             max-width: 1440px;
         }
 
         .our-yachts-cards {
             gap: 32px;
             max-width: 1240px;
+        }
+
+        .our-yachts-card-shell {
+            width: calc((100% - 64px) / 3);
         }
     }
 
