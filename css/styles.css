@@ -73,6 +73,18 @@ input, textarea {
     text-align: center;
 }
 
+.our-yacht-second-card {
+    display: none;
+    opacity: 0;
+    cursor: none;
+}
+
+.our-yacht-third-card {
+    display: none;
+    opacity: 0;
+    cursor: none;
+}
+
 .our-yachts-card-shell {
     margin: 0 auto;
     background-color: #FBFBFB;
@@ -141,4 +153,19 @@ input, textarea {
     line-height: 16.52px;
     letter-spacing: 0.42px;
     word-wrap: break-word 
+}
+
+.our-yacht-button-style {
+    background-color: transparent;
+    padding: 14px 32px;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    word-wrap: break-word;
+    border-radius: 15px; 
+    border: 1px rgba(251, 251, 251, 0.35) solid; 
 }
