@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.section-style {
+    background-color: #0E1823;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.our-yachts-container {
+    padding: 80px 20px;
+}
+
+.our-yachts-flex-order {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.our-yachts-title-style {
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.our-yachts-card-shell {
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+}
+
+.our-yachts-picture-shell img {
+    border-radius: 24px;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.our-yachts-text-shell {
+    padding: 16px 32px 32px 32px;
+}
+
+.our-yachts-text-justify {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-yachts-divide-line{
+    border: 1px rgba(4, 3, 6, 0.10) solid;
+    margin: 16px 0;
+}
+
+.our-yachts-text-column {
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+
+.our-yachts-text-arrow {
+    color: #1B414B;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.18;
+    word-wrap: break-word; 
+}
+
+.our-yachts-text-luxyry {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word; 
+}
+
+.our-yachts-text-aspects {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    word-wrap: break-word; 
+}
+
+.our-yachts-text-data {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.52px;
+    letter-spacing: 0.42px;
+    word-wrap: break-word 
+}
